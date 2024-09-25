@@ -299,12 +299,24 @@ Here are some additional details about Google Cloud Global Infrastructure:
 
 Here are some additional details about the different Database Options in Google Cloud:
 
-- **Cloud SQL** is a good choice for running relational databases. It is a managed service, so you do not have to worry about managing the underlying infrastructure.
+- **Cloud SQL** is a good choice for running relational databases. It is a fully  managed service, so you do not have to worry about managing the underlying infrastructure.
+- Hight availability across zones
 - **Cloud Spanner** is a good choice for running mission-critical applications that require strong consistency and high availability. It is a globally consistent database, so your data will be available from anywhere in the world.
 - **Cloud Datastore** is a good choice for running web applications and mobile backends that require high performance and scalability. It is a NoSQL database, so it is well-suited for storing large amounts of unstructured data.
-- **Cloud Bigtable** is a good choice for running big data applications, such as analytics and machine learning. It is a wide column store database, so it is well-suited for storing large amounts of semi-structured data.
+- For Mobile,web and IOT apps
+- Multi-region replication
+- ACID transaction
+- Fast,fully managed ,serverless
+- **Cloud Bigtable** is a good choice for running big data applications, such as analytics and machine learning. It is a wide column store database, so it is well-suited for storing large amounts of semi-structured data.Cluster resizing without downtime.
+- High throughput with low latency
+- Fully managed,scalable,NoSQL database
 - **Cloud Firestore** is a good choice for running mobile applications that require real-time data synchronization. It is a document database, so it is well-suited for storing data as JSON documents.
+- NoSQL,realtime database
+- Optimized for offline use
+- Cluster resizing without downtime
 - **Cloud Memorystore** is a good choice for running high-performance applications that require low latency.
+- Highly available in memory service for Redis and Memcached
+- Fully Managed
 
 ### Networking Services
 
