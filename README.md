@@ -265,12 +265,24 @@ Here are some additional details about Google Cloud Global Infrastructure:
 | Cloud Firestore | Document database service for storing data as JSON documents. | Running mobile applications that require real-time data synchronization. |
 | Persistent Disks | Durable, high-performance block storage devices that are attached to Compute Engine virtual machines (VMs). | Storing data that needs to be persistent, such as the operating system, applications, and user data. |
 - **Cloud Storage** is a good choice for storing static content, such as images, videos, and documents. It is also a good choice for storing backup data and logs.
+- Consistent,scalable,large-capacity,highly durable object storage
+- 11 9's Durability (99.999999999%)
+- Unlimited storage with no minimum object size
+- Use Cloud Storage for content delivery,data lakes,and backup
+- Available in different storage classes and availabilty
     - **Standard** storage class is a good choice for frequently accessed data. It offers high performance and availability.
-    - **Nearline** storage class is a good choice for data that is accessed less frequently. It offers lower costs than Standard storage class, but it has a longer retrieval time.
-    - **Coldline** storage class is a good choice for data that is accessed even less frequently. It offers the lowest costs of all the storage classes, but it has the longest retrieval time.
-    - **Archive** storage class is a good choice for data that is accessed rarely or not at all. It offers the lowest costs of all the storage classes, but it has the longest retrieval time and the lowest performance.
+    - **Nearline** storage class is a good choice for data that is accessed less frequently. It offers lower costs than Standard storage class, but it has a longer retrieval time.Accessed<1/mo
+    - **Coldline** storage class is a good choice for data that is accessed even less frequently. It offers the lowest costs of all the storage classes, but it has the longest retrieval time.Accessed<1/qtr
+    - **Archive** storage class is a good choice for data that is accessed rarely or not at all. It offers the lowest costs of all the storage classes, but it has the longest retrieval time and the lowest performance.Accessed<1/yr
 - **Cloud Firestore** is a good choice for running mobile applications that require real-time data synchronization. It is a document database, so it is well-suited for storing data as JSON documents.
+- Fully managed NFS file server
+- NFSv3 compliant
+- Store data from running applications
+- Use with VM instances and Kubernetes clusters
 - **Persistent Disks** are durable, high-performance block storage devices that are attached to Compute Engine virtual machines (VMs).
+- STANDARD
+- SOLID STATE(SSD)-Lower latency/higher iops
+- Available in zonal and regional options
 
 ### Database Options:
 
