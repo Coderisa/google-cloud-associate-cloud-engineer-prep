@@ -215,9 +215,35 @@ Here are some additional details about Google Cloud Global Infrastructure:
 ![Untitled](Google%20Cloud%20Platform%20-%20Associate%20Exam%20Prep%20f562c31336a343c1a19bef917fea9ad8/Untitled.png)
 
 - **Compute Engine** is a service that provides virtual machines (VMs) that can be used to run applications. VMs are customizable and can be scaled up or down as needed.
+- VMs are also called instances.
+- Choose region and zone to deploy.
+- You decide the OS and the software you decide to put in it.
+- Use public and private images to create instances.
+- Pre- configured images and software packages are available in google cloud.
+- Manage multiple instances using instance groups
+- Add/remove capacity using autoscaling with instance grps
+- Attach/detach disks as needed
+- Can be used with Google Cloud Storage
+- Use SSH to connect directly
 - **Google Kubernetes Engine** (GKE) is a service that manages Kubernetes clusters. Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications.
+- Built on open-source Kubernetes
+- Flexibility to integerate with on-premise Kubernetes
+- Uses Compute Engine instances as nodes in a cluster.
+- A cluster is a grp of nodes or computer Engine instances
+- Considered CaaS (container as a service)
 - **Cloud Run** is a serverless compute platform that allows you to run stateless containers that are invocable via HTTP requests. Cloud Run is a good choice for applications that do not require persistent storage or state management.
-- **App Engine** is a fully managed platform that allows you to run web applications and mobile backends. App Engine is a good choice for applications that require high availability and scalability.
+- Fully managed compute platform for deploying nd scaling containerized applications quickly and securely
+- Built upon an open standard Knative
+- Abstarcts away all infrastructure management
+- Known as serverless for containers
+- Any languag , any library ,and binary
+- Considered Faas (Function as a service) 
+- **App Engine** is a fully managed platform that allows you to run and host  web applications and mobile backends. App Engine is a good choice for applications that require high availability and scalability.
+- PaaS
+- Build your app in Go,Java,.NET,Node.js,PHP,Python or Ruby
+- Connect with other Google services seamlessly
+- Integerates with web security scanner to identify threats
+- 
 
 | Service | Description | Use Case | Category |
 | --- | --- | --- | --- |
